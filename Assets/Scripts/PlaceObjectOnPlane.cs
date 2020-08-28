@@ -41,7 +41,20 @@ public class PlaceObjectOnPlane : MonoBehaviour
         {
             int index = PlayerPrefs.GetInt("ITEM", 0);
             
-            Instantiate(ToPlace[index], cam.transform.position + cam.transform.forward, Quaternion.Euler(0, cam.transform.eulerAngles.y, 0));
+            if(index <= 2)
+            {
+                Instantiate(ToPlace[index], cam.transform.position + cam.transform.forward, Quaternion.Euler(0, cam.transform.eulerAngles.y, 0));
+            }
+            else if (index == 3)
+            {
+                int num = Random.Range(3, 6);
+                Instantiate(ToPlace[num], cam.transform.position + cam.transform.forward, Quaternion.Euler(0, cam.transform.eulerAngles.y, 0));
+            }
+            else
+            {
+                int num = Random.Range(7, ToPlace.Length);
+                Instantiate(ToPlace[num], cam.transform.position + cam.transform.forward, Quaternion.Euler(0, cam.transform.eulerAngles.y, 0));
+            }
         }
     }
 
