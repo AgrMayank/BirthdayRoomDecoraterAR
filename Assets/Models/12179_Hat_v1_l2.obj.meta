@@ -3,7 +3,22 @@ guid: 245581182f5448449b286c598a2eb067
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 12179_HatMat
+    second: {fileID: 2100000, guid: d2a0a111ab0497a48bfbf38ac8bc0975, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 12179_Hat_decoration2Mat
+    second: {fileID: 2100000, guid: 799249edbd8c12342841dd7de249d72e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 12179_Hat_decorationMat
+    second: {fileID: 2100000, guid: 15ce97f3df71df649997b77bcbd4762a, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
