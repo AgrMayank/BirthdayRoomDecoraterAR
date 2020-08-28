@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: AgrMayank
-  productName: Haunted House Creator AR
+  productName: BirthdayDecoraterAR
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.28235295, g: 0.21568629, b: 0.121568635, a: 1}
@@ -40,7 +40,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 21300000, guid: 87c05c6da9994b6429ec5083f14250e1, type: 3}
+  - logo: {fileID: 21300000, guid: f9726ec660ecf4445bdb6ed59fb5c839, type: 3}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -165,7 +165,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.AgrMayank.HauntedHouseCreatorAR
+    Android: com.AgrMayank.BirthdayDecoraterAR
     Standalone: com.unity.arfoundation.samples
     iPhone: com.unity.arfoundation.samples
   buildNumber: {}
@@ -282,7 +282,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 87c05c6da9994b6429ec5083f14250e1, type: 3}
+      m_Icon: {fileID: 2800000, guid: f9726ec660ecf4445bdb6ed59fb5c839, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
